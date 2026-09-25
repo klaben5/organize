@@ -3,40 +3,110 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ReduceTurnover.ai | Keep the people who make your company work</title>
-    <meta name="description" content="ReduceTurnover.ai is a retention consulting firm. We combine people analytics and hands-on consulting to help companies find why employees leave and fix it.">
-    <meta property="og:title" content="ReduceTurnover.ai">
-    <meta property="og:description" content="Retention consulting powered by people analytics. Find out why your people leave, and keep them.">
+    <title>Reduce Turnover | Retention Consulting for Revenue Leaders</title>
+    <meta name="description" content="We diagnose why your best people leave, price the real cost of every exit, and fix the lever driving your turnover. Book a free 30-minute diagnosis.">
+    <link rel="canonical" href="https://reduceturnover.ai/">
+
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://reduceturnover.ai">
+    <meta property="og:site_name" content="reduceturnover.ai">
+    <meta property="og:url" content="https://reduceturnover.ai/">
+    <meta property="og:title" content="Turnover is expensive. Measurable. And fixable.">
+    <meta property="og:description" content="Retention consulting for revenue leaders. We price every exit in dollars and fix the biggest lever behind your turnover.">
+    <meta property="og:image" content="https://reduceturnover.ai/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Analytics: uncomment ONE of these once the domain is live. -->
+    <!-- <script defer data-domain="reduceturnover.ai" src="https://plausible.io/js/script.js"></script> -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXX');</script> -->
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://reduceturnover.ai/#org",
+                "name": "reduceturnover.ai",
+                "url": "https://reduceturnover.ai/",
+                "logo": "https://reduceturnover.ai/favicon.svg",
+                "email": "max@reduceturnover.ai",
+                "slogan": "Retention, priced in dollars.",
+                "founder": {
+                    "@type": "Person",
+                    "name": "Max [Last name]",
+                    "jobTitle": "Founder",
+                    "sameAs": ["https://www.linkedin.com/in/your-profile"]
+                }
+            },
+            {
+                "@type": "ProfessionalService",
+                "@id": "https://reduceturnover.ai/#service",
+                "name": "reduceturnover.ai",
+                "url": "https://reduceturnover.ai/",
+                "description": "Retention consulting for sales and revenue leaders. We diagnose why your best people leave, price the real cost of every exit, and fix the lever driving your turnover.",
+                "areaServed": "United States",
+                "parentOrganization": { "@id": "https://reduceturnover.ai/#org" },
+                "serviceType": "Employee retention consulting"
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Is the consult really free?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Yes. It's 30 minutes with no obligation." }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Who is this for?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Sales and revenue leaders with frontline, commissioned, or retail teams." }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What do I need to bring?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Your rough headcount and how many people left last year. That's enough to start." }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How is turnover cost calculated?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "We add up recruiting, training, ramp time, and the revenue lost while the seat is empty or filled by someone still ramping." }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What happens after the consult?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "If there's a fit, we propose a focused engagement on your biggest lever. If not, you keep the one-page summary." }
+                    }
+                ]
+            }
+        ]
+    }
+    </script>
 </head>
 <body>
     <a class="skip-link" href="#main">Skip to content</a>
 
     <header class="site-header">
-        <div class="container nav">
-            <a class="logo" href="#top" aria-label="ReduceTurnover.ai home">
-                <svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true">
-                    <rect width="32" height="32" rx="8" fill="var(--brand)"/>
-                    <path d="M9 21c0-5 3-9 7-9s7 4 7 9" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-                    <path d="M20 9l3 3-3 3" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                <span>ReduceTurnover<span class="logo-dot">.ai</span></span>
-            </a>
-            <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
-                <span></span><span></span><span></span>
-            </button>
-            <nav id="nav-menu" class="nav-menu">
-                <a href="#services">Services</a>
-                <a href="#approach">Approach</a>
-                <a href="#calculator">Cost calculator</a>
-                <a href="#faq">FAQ</a>
-                <a class="btn btn-small" href="#contact">Book a consultation</a>
+        <div class="container">
+            <nav class="nav" aria-label="Main">
+                <a class="logo" href="#top" aria-label="reduceturnover.ai home">
+                    <span class="logo-mark" aria-hidden="true">R</span>
+                    <span>reduce<b>turnover</b>.ai</span>
+                </a>
+                <div class="nav-links">
+                    <a href="#how-it-works">How it works</a>
+                    <a href="#about">About</a>
+                    <a href="#faq">FAQ</a>
+                </div>
+                <a class="btn btn-small" href="mailto:max@reduceturnover.ai?subject=Free%20consult" data-consult data-cta="nav">Schedule a free consult</a>
             </nav>
         </div>
     </header>
@@ -45,214 +115,204 @@
         <!-- Hero -->
         <section class="hero" id="top">
             <div class="container hero-grid">
-                <div class="hero-copy">
-                    <p class="eyebrow">Retention consulting &middot; People analytics</p>
-                    <h1>Keep the people who make your company work.</h1>
-                    <p class="lead">
-                        Turnover is expensive, disruptive, and usually predictable.
-                        We use your own HR data to find out why people leave, then
-                        work with your leaders to fix it.
-                    </p>
+                <div>
+                    <p class="tag">Retention consulting for revenue leaders</p>
+                    <h1>Turnover is expensive. <span class="accent">Measurable.</span> And fixable.</h1>
+                    <p class="lead">We find why your best people leave, put a dollar cost on every exit, and fix the one lever driving most of it.</p>
                     <div class="hero-actions">
-                        <a class="btn" href="#contact">Book a free assessment</a>
-                        <a class="btn btn-ghost" href="#calculator">Estimate your turnover cost</a>
+                        <a class="btn btn-primary" href="mailto:max@reduceturnover.ai?subject=Free%20consult" data-consult data-cta="hero">Schedule a free consult</a>
+                        <a class="btn btn-outline" href="#cost-model">See the cost model</a>
                     </div>
+                    <p class="hero-note"><strong>30 minutes. No cost, no pitch deck.</strong> You leave with your estimated cost of turnover.</p>
                 </div>
-                <div class="hero-card" aria-label="Example retention dashboard">
-                    <div class="dash-head">
-                        <span>Flight-risk overview</span>
-                        <span class="pill">Example</span>
+
+                <figure class="index-card" aria-label="Illustrative turnover index example">
+                    <div class="index-head">
+                        <span>Turnover index</span>
+                        <span class="chip-good">&minus;31% YoY</span>
                     </div>
-                    <ul class="risk-list">
-                        <li><span>Customer Support</span><span class="bar"><i style="width:72%" class="high"></i></span><b>High</b></li>
-                        <li><span>Sales</span><span class="bar"><i style="width:54%" class="med"></i></span><b>Medium</b></li>
-                        <li><span>Engineering</span><span class="bar"><i style="width:31%" class="low"></i></span><b>Low</b></li>
-                        <li><span>Operations</span><span class="bar"><i style="width:47%" class="med"></i></span><b>Medium</b></li>
-                    </ul>
-                    <div class="dash-foot">
+                    <p class="index-value">8.2%</p>
+                    <p class="index-sub">vs. 11.9% at engagement start</p>
+                    <div class="bars" aria-hidden="true">
+                        <span style="height:100%"></span>
+                        <span style="height:92%"></span>
+                        <span style="height:78%"></span>
+                        <span style="height:68%"></span>
+                        <span style="height:54%"></span>
+                        <span style="height:40%"></span>
+                    </div>
+                    <div class="index-foot">
                         <div>
-                            <small>Top driver</small>
-                            <strong>Manager 1:1 frequency</strong>
+                            <small>Cost per exit</small>
+                            <strong>$48k</strong>
                         </div>
                         <div>
-                            <small>Next action</small>
-                            <strong>Stay interviews, Support</strong>
+                            <small>Save / retained hire</small>
+                            <strong class="good">$61k</strong>
                         </div>
                     </div>
-                </div>
+                    <figcaption class="illustrative">Illustrative example</figcaption>
+                </figure>
             </div>
         </section>
 
-        <!-- Problem stats -->
-        <section class="stats">
-            <div class="container stats-grid">
-                <div class="stat">
-                    <strong>0.5&ndash;2&times;</strong>
-                    <span>Salary is a common estimate of what it costs to replace one employee.</span>
-                </div>
-                <div class="stat">
-                    <strong>First year</strong>
-                    <span>That's when many companies see the most exits. Onboarding matters more than most people think.</span>
-                </div>
-                <div class="stat">
-                    <strong>Preventable</strong>
-                    <span>Many exits come from things you control: managers, growth, workload, and pay.</span>
-                </div>
-            </div>
-        </section>
-
-        <!-- Services -->
-        <section class="section" id="services">
+        <!-- Cost of turnover strip -->
+        <section class="cost-strip" aria-label="Cost of turnover">
             <div class="container">
-                <div class="section-head">
-                    <p class="eyebrow">What we do</p>
-                    <h2>From diagnosis to lasting change</h2>
-                    <p>Hire us for a single diagnostic or a full retention program. Every engagement starts with data and ends with changes your managers can actually run.</p>
-                </div>
-                <div class="cards">
-                    <article class="card">
-                        <div class="icon" aria-hidden="true">
-                            <svg viewBox="0 0 24 24"><path d="M4 19V5M4 19h16M8 15l3-4 3 2 5-6"/></svg>
+                <div class="strip">
+                    <p class="strip-intro">Every frontline sales exit costs recruiting, ramp time, and lost deals.</p>
+                    <div class="strip-grid">
+                        <!-- TODO: replace the bracketed values with your own researched or experienced numbers. -->
+                        <div>
+                            <strong class="fill-in">[$XX,000]</strong>
+                            <span>Cost per exit</span>
                         </div>
-                        <h3>Turnover diagnostic</h3>
-                        <p>We analyze your HRIS, exit, and engagement data to find where turnover is concentrated, what it costs you, and what's driving it.</p>
-                    </article>
-                    <article class="card">
-                        <div class="icon" aria-hidden="true">
-                            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg>
+                        <div>
+                            <strong class="fill-in">[X] months</strong>
+                            <span>To full ramp for a new hire</span>
                         </div>
-                        <h3>AI flight-risk analytics</h3>
-                        <p>Predictive models flag teams and roles with rising attrition risk months ahead, so you can act before resignation letters show up.</p>
-                    </article>
-                    <article class="card">
-                        <div class="icon" aria-hidden="true">
-                            <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 19c0-3 3-5 6-5s6 2 6 5M16 11a3 3 0 100-6M21 19c0-2-1.5-4-4-4.6"/></svg>
+                        <div>
+                            <strong class="fill-in">[$XX,000]</strong>
+                            <span>Revenue lost during a vacancy</span>
                         </div>
-                        <h3>Manager enablement</h3>
-                        <p>People quit managers. We train leaders on stay interviews, career conversations, and recognition, and give them simple playbooks to follow.</p>
-                    </article>
-                    <article class="card">
-                        <div class="icon" aria-hidden="true">
-                            <svg viewBox="0 0 24 24"><path d="M5 12l4 4L19 6"/></svg>
-                        </div>
-                        <h3>Onboarding redesign</h3>
-                        <p>We rebuild the first 90 days so new hires ramp up faster, feel they belong, and stay past the critical first year.</p>
-                    </article>
-                    <article class="card">
-                        <div class="icon" aria-hidden="true">
-                            <svg viewBox="0 0 24 24"><path d="M12 3v18M17 7H9.5a2.5 2.5 0 000 5h5a2.5 2.5 0 010 5H7"/></svg>
-                        </div>
-                        <h3>Pay &amp; career pathing</h3>
-                        <p>We benchmark compensation, find where you're paying below market, and design career ladders that give people a reason to grow with you.</p>
-                    </article>
-                    <article class="card">
-                        <div class="icon" aria-hidden="true">
-                            <svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h10M4 18h6"/></svg>
-                        </div>
-                        <h3>Exit &amp; stay surveys</h3>
-                        <p>We design listening programs people actually answer honestly, and turn the responses into clear priorities for leadership.</p>
-                    </article>
+                    </div>
+                    <p class="source">Source: <span class="fill-in">[add your source]</span></p>
                 </div>
             </div>
         </section>
 
-        <!-- Approach -->
-        <section class="section section-alt" id="approach">
-            <div class="container">
-                <div class="section-head">
-                    <p class="eyebrow">How we work</p>
-                    <h2>A four-step retention playbook</h2>
-                </div>
-                <ol class="steps">
-                    <li>
-                        <span class="step-num">01</span>
-                        <h3>Measure</h3>
-                        <p>Establish your true turnover rate and cost by team, tenure, role, and manager.</p>
-                    </li>
-                    <li>
-                        <span class="step-num">02</span>
-                        <h3>Diagnose</h3>
-                        <p>Combine analytics with employee interviews to find the root causes behind the numbers.</p>
-                    </li>
-                    <li>
-                        <span class="step-num">03</span>
-                        <h3>Intervene</h3>
-                        <p>Roll out targeted fixes, like manager training, onboarding, and pay adjustments, where they'll have the biggest impact.</p>
-                    </li>
-                    <li>
-                        <span class="step-num">04</span>
-                        <h3>Sustain</h3>
-                        <p>Track results on a live dashboard and adjust every quarter so the gains stick.</p>
-                    </li>
-                </ol>
-            </div>
-        </section>
-
-        <!-- Calculator -->
-        <section class="section" id="calculator">
+        <!-- Cost model -->
+        <section class="section" id="cost-model">
             <div class="container calc-grid">
-                <div class="section-head left">
-                    <p class="eyebrow">Turnover cost calculator</p>
-                    <h2>What is turnover costing you?</h2>
-                    <p>Plug in your numbers for a rough estimate. Replacement cost covers recruiting, onboarding, lost productivity, and the strain on the team left behind.</p>
-                    <p class="fine">Estimates are for illustration only. We build a detailed model from your actual data during the diagnostic.</p>
+                <div class="section-head">
+                    <h2>The cost model</h2>
+                    <p>Turnover, priced in dollars. Put in three numbers and see what exits cost you each year. On the consult, we build the real version from your data: recruiting, training, ramp time, and revenue lost while a seat sits empty.</p>
+                    <p class="fine">This is a rough estimate. Cost per exit varies widely by role and company.</p>
                 </div>
-                <form class="calc" id="calc-form" novalidate>
-                    <label>
-                        <span>Number of employees</span>
-                        <input type="number" id="employees" min="1" value="250" inputmode="numeric">
-                    </label>
-                    <label>
-                        <span>Average annual salary ($)</span>
-                        <input type="number" id="salary" min="0" step="1000" value="60000" inputmode="numeric">
-                    </label>
-                    <label>
-                        <span>Annual turnover rate: <output id="rate-out">20%</output></span>
-                        <input type="range" id="rate" min="1" max="80" value="20">
-                    </label>
-                    <label>
-                        <span>Replacement cost (% of salary): <output id="cost-out">50%</output></span>
-                        <input type="range" id="cost" min="10" max="200" step="5" value="50">
-                    </label>
-                    <label>
-                        <span>Target reduction in turnover: <output id="reduce-out">25%</output></span>
-                        <input type="range" id="reduce" min="5" max="60" step="5" value="25">
-                    </label>
+                <form class="card calc" id="calc-form" novalidate>
+                    <div class="calc-inputs">
+                        <label>
+                            <span>Headcount</span>
+                            <input type="number" id="headcount" min="1" value="200" inputmode="numeric">
+                        </label>
+                        <label>
+                            <span>Exits per year</span>
+                            <input type="number" id="exits" min="0" value="60" inputmode="numeric">
+                        </label>
+                        <label>
+                            <span>Cost per exit ($)</span>
+                            <input type="number" id="cost-per-exit" min="0" step="1000" value="30000" inputmode="numeric">
+                        </label>
+                    </div>
                     <div class="calc-results" aria-live="polite">
                         <div>
-                            <small>Employees leaving per year</small>
-                            <strong id="res-leavers">50</strong>
+                            <small>Turnover rate</small>
+                            <strong id="res-rate">30%</strong>
                         </div>
                         <div>
-                            <small>Estimated annual turnover cost</small>
-                            <strong id="res-cost">$1,500,000</strong>
+                            <small>Savings if you cut exits by 25%</small>
+                            <strong id="res-savings">$450,000</strong>
                         </div>
-                        <div class="highlight">
-                            <small>Potential annual savings</small>
-                            <strong id="res-savings">$375,000</strong>
+                        <div class="total">
+                            <small>What turnover costs you each year</small>
+                            <strong id="res-cost">$1,800,000</strong>
                         </div>
                     </div>
+                    <a class="btn btn-primary" href="mailto:max@reduceturnover.ai?subject=Free%20consult" data-consult data-cta="calculator">Schedule a free consult</a>
                 </form>
             </div>
         </section>
 
-        <!-- Who we help -->
-        <section class="section section-alt">
+        <!-- Five levers -->
+        <section class="section" id="how-it-works">
             <div class="container">
                 <div class="section-head">
-                    <p class="eyebrow">Who we help</p>
-                    <h2>Built for industries where people are the product</h2>
+                    <h2>How we cut the number</h2>
+                    <p>Turnover follows patterns you can measure. We find which of five levers costs you the most, then fix it.</p>
                 </div>
-                <ul class="industries">
-                    <li>Retail &amp; hospitality</li>
-                    <li>Healthcare</li>
-                    <li>Contact centers</li>
-                    <li>Logistics &amp; warehousing</li>
-                    <li>Technology</li>
-                    <li>Professional services</li>
-                    <li>Manufacturing</li>
-                    <li>Financial services</li>
-                </ul>
+                <ol class="levers">
+                    <li class="card">
+                        <span class="lever-num">01</span>
+                        <h3>Hire for Fit</h3>
+                        <p>Most turnover is decided before day one. We pinpoint the traits that separate the people who stay from the people who don't.</p>
+                    </li>
+                    <li class="card">
+                        <span class="lever-num">02</span>
+                        <h3>Win the First 90 Days</h3>
+                        <p>Early exits are the most expensive and the most preventable. We rebuild the window where new hires decide whether to stay.</p>
+                    </li>
+                    <li class="card">
+                        <span class="lever-num">03</span>
+                        <h3>Build Better Managers</h3>
+                        <p>People leave managers, not companies. We show you exactly which leaders are driving your turnover, and how to change it.</p>
+                    </li>
+                    <li class="card">
+                        <span class="lever-num">04</span>
+                        <h3>Make Pay Predictable</h3>
+                        <p>It's not always about paying more. We find where your compensation structure is quietly pushing people out.</p>
+                    </li>
+                    <li class="card">
+                        <span class="lever-num">05</span>
+                        <h3>Show People What's Next</h3>
+                        <p>Your best performers leave when they can't see a future. We make sure they see one.</p>
+                    </li>
+                </ol>
+                <div class="section-close">
+                    <p>Every company has one biggest lever. Schedule a free consult to find yours.</p>
+                    <a class="btn" href="mailto:max@reduceturnover.ai?subject=Free%20consult" data-consult data-cta="levers">Schedule a free consult</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- What happens on the consult -->
+        <section class="section" id="consult">
+            <div class="container">
+                <div class="section-head">
+                    <h2>What happens on the free consult</h2>
+                    <p>Three steps, about 30 minutes of your time, and you keep what we find.</p>
+                </div>
+                <ol class="steps">
+                    <li class="card">
+                        <span class="lever-num">1</span>
+                        <span class="when">Before the call</span>
+                        <p>Answer three quick questions when you book: headcount, exits last year, and the role with the most turnover.</p>
+                    </li>
+                    <li class="card">
+                        <span class="lever-num">2</span>
+                        <span class="when">On the call &middot; 30 min</span>
+                        <p>We estimate your annual cost of turnover and name the lever most likely driving it.</p>
+                    </li>
+                    <li class="card">
+                        <span class="lever-num">3</span>
+                        <span class="when">After the call</span>
+                        <p>You get a one-page summary by email, yours to keep whether or not we work together.</p>
+                    </li>
+                </ol>
+                <div class="section-close">
+                    <p>30 minutes. No cost, no pitch deck.</p>
+                    <a class="btn" href="mailto:max@reduceturnover.ai?subject=Free%20consult" data-consult data-cta="consult-steps">Schedule a free consult</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About the founder -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Built by an operator, not a theorist</h2>
+                </div>
+                <div class="card founder">
+                    <!-- TODO: replace with <img class="founder-photo" src="/founder.jpg" alt="Max [Last name]"> -->
+                    <div class="founder-photo" role="img" aria-label="Founder photo placeholder">M</div>
+                    <div>
+                        <blockquote>&ldquo;I've spent my career leading sales teams across a multi-location retail business. The most expensive number I ever managed wasn't on the P&amp;L. It was turnover. reduceturnover.ai brings the same measure-it-then-fix-it approach to other revenue leaders.&rdquo;</blockquote>
+                        <p class="founder-name">Max <span class="fill-in">[Last name]</span></p>
+                        <div class="founder-meta">
+                            <span>Founder, reduceturnover.ai</span>
+                            <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener">LinkedIn &rarr;</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -260,98 +320,113 @@
         <section class="section" id="faq">
             <div class="container narrow">
                 <div class="section-head">
-                    <p class="eyebrow">FAQ</p>
-                    <h2>Common questions</h2>
+                    <h2>Questions revenue leaders ask</h2>
                 </div>
-                <div class="faq">
+                <div class="card faq">
                     <details>
-                        <summary>What data do you need from us?</summary>
-                        <p>At minimum, an anonymized export from your HRIS with hire dates, exit dates, role, team, and manager. Engagement surveys, exit interviews, and compensation data sharpen the analysis, but you don't need them to get started.</p>
+                        <summary>Is the consult really free?</summary>
+                        <p>Yes. It's 30 minutes with no obligation.</p>
                     </details>
                     <details>
-                        <summary>How do you handle employee privacy?</summary>
-                        <p>We work with de-identified data wherever possible, sign a DPA with every client, and only report results at a group level. Our models never flag individual employees to their managers.</p>
+                        <summary>Who is this for?</summary>
+                        <p>Sales and revenue leaders with frontline, commissioned, or retail teams.</p>
                     </details>
                     <details>
-                        <summary>How long does an engagement take?</summary>
-                        <p>A turnover diagnostic usually takes 4&ndash;6 weeks. Full retention programs run 6&ndash;12 months, with results tracked from the first quarter.</p>
+                        <summary>What do I need to bring?</summary>
+                        <p>Your rough headcount and how many people left last year. That's enough to start.</p>
                     </details>
                     <details>
-                        <summary>Do we need a large HR team to work with you?</summary>
-                        <p>No. Many of our clients have a small HR function. We do the heavy lifting and hand over tools and playbooks your team can keep running.</p>
+                        <summary>How is turnover cost calculated?</summary>
+                        <p>We add up recruiting, training, ramp time, and the revenue lost while the seat is empty or filled by someone still ramping.</p>
                     </details>
                     <details>
-                        <summary>What does "AI" mean in what you do?</summary>
-                        <p>We use machine-learning models to spot patterns in your workforce data, such as which combinations of tenure, workload, and manager changes come before exits. People make the decisions. The models help you know where to look first.</p>
+                        <summary>What happens after the consult?</summary>
+                        <p>If there's a fit, we propose a focused engagement on your biggest lever. If not, you keep the one-page summary.</p>
                     </details>
                 </div>
             </div>
         </section>
 
-        <!-- Contact -->
-        <section class="section contact" id="contact">
-            <div class="container contact-grid">
-                <div>
-                    <p class="eyebrow light">Get started</p>
-                    <h2>Book a free 30-minute turnover assessment</h2>
-                    <p>Tell us a bit about your organization. We'll come to the call with an initial view of where your turnover risk is and what it's likely costing you.</p>
-                    <ul class="checks">
-                        <li>No obligation, no sales pitch</li>
-                        <li>An initial turnover cost estimate</li>
-                        <li>Two or three quick wins you can act on right away</li>
-                    </ul>
+        <!-- Final CTA band -->
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="cta-band">
+                    <h2>What is turnover costing you this year?</h2>
+                    <p>Find out in 30 minutes.</p>
+                    <a class="btn btn-light" href="mailto:max@reduceturnover.ai?subject=Free%20consult" data-consult data-cta="final">Schedule a free consult</a>
                 </div>
-                <form class="contact-form" id="contact-form" action="mailto:hello@reduceturnover.ai" method="post" enctype="text/plain">
-                    <label>
-                        <span>Name</span>
-                        <input type="text" name="name" autocomplete="name" required>
-                    </label>
-                    <label>
-                        <span>Work email</span>
-                        <input type="email" name="email" autocomplete="email" required>
-                    </label>
-                    <label>
-                        <span>Company</span>
-                        <input type="text" name="company" autocomplete="organization">
-                    </label>
-                    <label>
-                        <span>Company size</span>
-                        <select name="size">
-                            <option>1&ndash;50</option>
-                            <option>51&ndash;250</option>
-                            <option selected>251&ndash;1,000</option>
-                            <option>1,001&ndash;5,000</option>
-                            <option>5,000+</option>
-                        </select>
-                    </label>
-                    <label class="full">
-                        <span>What's your biggest retention challenge?</span>
-                        <textarea name="message" rows="4"></textarea>
-                    </label>
-                    <button class="btn full" type="submit">Request assessment</button>
-                    <p class="form-status full" id="form-status" role="status"></p>
-                </form>
             </div>
         </section>
     </main>
 
     <footer class="site-footer">
-        <div class="container footer-grid">
-            <div>
-                <a class="logo" href="#top">
-                    <span>ReduceTurnover<span class="logo-dot">.ai</span></span>
-                </a>
-                <p>Retention consulting powered by people analytics.</p>
+        <div class="container">
+            <div class="footer-card">
+                <a class="logo" href="#top"><span>reduce<b>turnover</b>.ai</span></a>
+                <nav aria-label="Footer">
+                    <a href="mailto:max@reduceturnover.ai">max@reduceturnover.ai</a>
+                    <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="blog/">Blog</a>
+                    <a href="privacy.html">Privacy policy</a>
+                </nav>
+                <span>Retention, priced in dollars. &copy; 2026</span>
             </div>
-            <nav aria-label="Footer">
-                <a href="#services">Services</a>
-                <a href="#approach">Approach</a>
-                <a href="#calculator">Calculator</a>
-                <a href="#contact">Contact</a>
-            </nav>
-            <p class="copyright">&copy; <span id="year">2026</span> ReduceTurnover.ai. All rights reserved.</p>
         </div>
     </footer>
+
+    <div class="mobile-cta">
+        <a class="btn btn-primary" href="mailto:max@reduceturnover.ai?subject=Free%20consult" data-consult data-cta="mobile-sticky">Schedule a free consult</a>
+    </div>
+
+    <!-- Consult booking pop-up -->
+    <div class="modal" id="consult-modal" role="dialog" aria-modal="true" aria-label="Schedule a free consult" hidden>
+        <div class="modal-box" id="modal-box">
+            <button class="modal-close" type="button" aria-label="Close" data-close>&times;</button>
+
+            <!-- Shown when SCHEDULER_URL is set in script.js -->
+            <div id="scheduler-view" hidden></div>
+
+            <!-- Fallback intake form, used until a scheduler is connected -->
+            <div id="intake-view">
+                <h2>Schedule a free consult</h2>
+                <p class="muted">Three quick questions and we'll email you times for a 30-minute call.</p>
+                <form class="intake" id="intake-form">
+                    <div class="row">
+                        <label>
+                            <span>Your name</span>
+                            <input type="text" name="name" autocomplete="name" required>
+                        </label>
+                        <label>
+                            <span>Work email</span>
+                            <input type="email" name="email" autocomplete="email" required>
+                        </label>
+                    </div>
+                    <label>
+                        <span>Company and role</span>
+                        <input type="text" name="company" placeholder="Acme Retail, VP Sales" required>
+                    </label>
+                    <div class="row">
+                        <label>
+                            <span>Approximate headcount</span>
+                            <input type="text" name="headcount" inputmode="numeric" placeholder="e.g. 250">
+                        </label>
+                        <label>
+                            <span>People who left in the last 12 months</span>
+                            <input type="text" name="exits" inputmode="numeric" placeholder="e.g. 60">
+                        </label>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Request my consult</button>
+                </form>
+            </div>
+
+            <div id="thanks-view" class="thanks" hidden>
+                <div class="thanks-icon" aria-hidden="true">&#10003;</div>
+                <h2>You're booked.</h2>
+                <p class="muted">Before we talk, jot down the role where turnover hurts most.</p>
+                <button class="btn" type="button" data-close>Done</button>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
